@@ -1,12 +1,14 @@
 body{
-    background-color: lightslategray;
+    background-color: white;
  }
  
  [class*="col-"], .col{
     color: white;
-    border: 1px solid white;
+    border: 2px solid white;
  }
  .row{
-    background-color: lightsalmon;
-    border: 1px solid red;
+    background-color: blue;
+ }
+ .bg-active{
+    background-color:#6DE267;
  }

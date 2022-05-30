@@ -1,21 +1,29 @@
-body{
+body {
     background-color: white;
- }
- 
- [class*="col-"], .col{
+}
+
+[class*="col-offset-"] {
+    background-color: blue;
+}
+
+[class*="col-"],
+.col {
     color: white;
     border: 1px solid white;
- }
- .row{
+}
+
+.row {
     background-color: blue;
- }
- .bg-active{
-    background-color:#6DE267;
+}
+
+.bg-active {
+    background-color: #6DE267;
     font-size: 10px;
- }
- .space{
+}
+
+.space {
     flex-basis: calc((100% / 12) * 12);
     max-width: calc((100% / 12) * 12);
     padding: 30px;
     background-color: white;
- }
+}
